@@ -185,16 +185,6 @@ body
     left: 0;
 }
 
-.page
-{
-    display: none;
-}
-
-.page:target
-{
-    display: block;
-}
-
 @media only screen and (min-width: 800px)
 {
     .mobile
