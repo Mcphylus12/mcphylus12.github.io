@@ -2,7 +2,7 @@
     <head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-        <title>[V{{site.version}}] {{ site.title }}</title>
+        <title>{{ page.title }} [V{{site.version}}]</title>
         <link rel="stylesheet" href="css/layout.css" />
         <link rel="stylesheet" href="css/page.css" />
         <link rel="stylesheet" href="css/markdown.css" />
@@ -50,12 +50,10 @@
                     {% endfor %}
                 </div>
                 <div id="content">
-                    <div id="blank-page">
-                        {{ content }}
-                    </div>
+                    {{ content }}
                 </div>
                 <div id="footer">
-                    {% include footer.md %}
+                    {% include footer.html %}
                 </div>
             </div>
         </div>
