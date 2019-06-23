@@ -2,7 +2,11 @@
     <head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-        <title>{{ page.title }} [V{{site.version}}]</title>
+        <title>{% if page.title != null and page.title != empty  %}
+            {{ page.title }} 
+            {% else %}
+            {{ site.title }} 
+            {% endif %} [V{{site.version}}]</title>
         <link rel="stylesheet" href="/css/layout.css" />
         <link rel="stylesheet" href="/css/page.css" />
         <link rel="stylesheet" href="/css/markdown.css" />
@@ -48,7 +52,7 @@
                         <img src="{{ site.bannerUrl }}" width="100%" height="100%" />
                     </div>
                 {% endif %}
-                <div class="nav-bar">
+                <div class="nav-bar desktop">
                     {% for route in site.data.routes %}
                     <a href="{{ route.Url }}" class="nav-bar-item">{{ route.Name }}</a>
                     {% endfor %}
