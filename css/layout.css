@@ -1,0 +1,224 @@
+/*
+red: #990303
+lightgrey: #9c9999
+grey: #71706e
+darkgrey: #292323
+white: #F5F5F5
+*/
+
+/* UX */
+body
+{
+    scroll-behavior: smooth;
+    color: #F5F5F5;
+    font-family: Helvetica;
+    margin: 0;
+    font-size: 1em;
+}
+
+#main-panel
+{
+    z-index: 0;
+    width: 100%;
+    background-color: #292323;
+}
+
+#title-bar
+{
+    width: 100%;
+    height: 50px;
+}
+
+#title-text
+{
+    width: 74%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#links
+{
+    height: 100%;
+    display: inline-block;
+    width: 25%;
+}
+
+.nav-bar
+{
+    width: 100%;
+    font-size: 2em;
+}
+
+.nav-bar.desktop
+{
+    margin: 0 5px;
+    border-bottom: 2px solid #9c9999;
+}
+
+.nav-bar-item
+{
+    display: inline-block;
+    font-size: 1ex;
+    min-width: 5%;
+    text-align: center;
+    line-height: 3.5ex;
+    cursor: pointer;
+    color: darkgray;
+    transition: color 0.3s;
+    text-decoration: none;
+    outline: none;
+}
+
+.nav-bar-item:hover
+{
+    color: #990303;
+}
+
+#left-panel .nav-bar .nav-bar-item
+{
+
+    width: 100%;
+    height: 4ex;
+    padding: 20px 0;
+    line-height: 4ex;
+    border-bottom: grey 1px solid;
+}
+
+#banner
+{
+    height: 300px;
+}
+
+#footer {
+    border-top: 1px solid #9c9999;
+    height: 80px;
+    padding: 20px;
+}
+
+#left-panel #nav-bar
+{
+    width: 100%;
+}
+
+#burger-button-container
+{
+    margin: 10px;
+    position: relative;
+}
+
+.burger-line
+{
+    top: 0;
+    bottom: 0;
+    position: relative;
+    display: block;
+    background-color: #990303;
+    width: 30px;
+    height: 5px;
+    margin: 2px 0;
+    border-radius: 2px;
+    content: "";
+    transition: transform 0.5s;
+}
+
+#burger-check:checked ~ #burger-button #one
+{
+    transform: rotate(-30deg);
+}
+
+#burger-check:checked ~ #burger-button #three
+{
+    transform: rotate(30deg);
+}
+
+/* Responsive */
+#app
+{
+    position: relative
+}
+
+#burger-button
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: 1000;
+    width: 50px;
+    height: 50px;
+}
+
+#burger-check
+{
+    display: none;
+}
+
+.panel
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#app
+{
+    height: 100%; 
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+#left-panel
+{
+    transition: left 0.5s;
+    top: 50px;
+    z-index: 100;
+    left: -50%;
+    width: 50%;
+    background-color: whitesmoke;
+}
+
+#burger-check:checked ~ #left-panel
+{
+    left: 0;
+}
+
+.page
+{
+    display: none;
+}
+
+.page:target
+{
+    display: block;
+}
+
+@media only screen and (min-width: 800px)
+{
+    .mobile
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px)
+{
+    .desktop
+    {
+        display: none;
+    }
+
+    #title-bar
+    {
+        margin-left: 50px;
+    }
+
+    #banner
+    {
+        height: 150px;
+    }
+}
+
+/* Debug */

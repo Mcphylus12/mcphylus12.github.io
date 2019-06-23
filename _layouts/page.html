@@ -3,44 +3,69 @@
         <meta content="width=device-width, initial-scale=1" name="viewport" />
 
         <title></title>
-        <link rel="stylesheet" href="/css/page.css" />
+        <link rel="stylesheet" href="css/layout.css" />
+        <link rel="stylesheet" href="css/page.css" />
+        <link rel="stylesheet" href="css/markdown.css" />
     </head>
     <body>
         <div id="app">
-            <input type="checkbox" id="burger-button">
-            <div id="burger-panel" class="panel">
-
-                <div id="burger-nav">
-                    <div class="burger-nav-item">Home</div>
-                    <div class="burger-nav-item">About</div>
-                    <div class="burger-nav-item">CV</div>
-                    <div class="burger-nav-item">Blog</div>
-                    <div class="burger-nav-item">Serverless</div>
-                    <div class="burger-nav-item">Projects</div>
+            <input type="checkbox" id="burger-check" name="burger-check" autocomplete="off">
+            <label id="burger-button" class="mobile" for="burger-check">
+                <div id="burger-button-container">
+                    <span class="burger-line" id="one"></span>
+                    <span class="burger-line" id="two"></span>
+                    <span class="burger-line" id="three"></span>
+                </div>
+            </label>
+            <div id="left-panel" class="mobile panel">
+                <div class="nav-bar">
+                    <a href="#home" class="nav-bar-item">Home</a>
+                    <a href="#about" class="nav-bar-item">About</a>
+                    <a href="#cv" class="nav-bar-item">CV</a>
+                    <a href="#blog" class="nav-bar-item">Blog</a>
+                    <a href="#serverless" class="nav-bar-item">Serverless</a>
+                    <a href="#projects" class="nav-bar-item">Projects</a>
                 </div>
             </div>
             <div id="main-panel" class="panel"> 
                 <div id="title-bar">
-                    TitleBar
+                    <div id="title-text">
+                        TitleBar
+                    </div>
+                    <div id="links">
+                        <ul>
+
+                        </ul>
+                    </div>
                 </div>
                 <div id="banner">
                     <img src="banner.png" width="100%" height="100%" />
                 </div>
-                <div id="nav-bar">
-                    <div class="nav-bar-item">Home</div>
-                    <div class="nav-bar-item">About</div>
-                    <div class="nav-bar-item">CV</div>
-                    <div class="nav-bar-item">Blog</div>
-                    <div class="nav-bar-item">Serverless</div>
-                    <div class="nav-bar-item">Projects</div>
+                <div class="desktop nav-bar">
+                    <a href="#home" class="nav-bar-item">Home</a>
+                    <a href="#about" class="nav-bar-item">About</a>
+                    <a href="#cv" class="nav-bar-item">CV</a>
+                    <a href="#blog" class="nav-bar-item">Blog</a>
+                    <a href="#serverless" class="nav-bar-item">Serverless</a>
+                    <a href="#projects" class="nav-bar-item">Projects</a>
                 </div>
                 <div id="content">
-                    {{ content }}
+                    <div class="page" id="home">
+                        <div id="blank-page">
+                            {{ content }}
+                        </div>
+                    </div>
+                    <div class="page" id="about">About</div>
+                    <div class="page" id="cv">CV</div>
+                    <div class="page" id="blog">Blog</div>
+                    <div class="page" id="serverless">Serverless</div>
+                    <div class="page" id="projects">Projects</div>
                 </div>
                 <div id="footer">
 Velit ex tempor anim veniam commodo nisi eu commodo irure dolor aliquip deserunt. Velit reprehenderit eiusmod ea ad. Laboris dolor fugiat deserunt non occaecat.
                 </div>
             </div>
         </div>
+        <script>location.hash = location.hash || '#home';</script>
     </body>
 </html>

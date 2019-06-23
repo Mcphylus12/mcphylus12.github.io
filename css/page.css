@@ -1,182 +1,33 @@
-body
-{
-    background: rgb(223, 222, 222);
-    color: #242424;
-    font-family: Helvetica;
-    margin: 0;
-    font-size: 2em;
-}
-
-#app
-{
-    position: relative
-}
-
-#burger-button
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0;
-    z-index: 1000;
-    width: 80px;
-    height: 80px;
-    background: red;
-    
-}
-
 /*
-    Burger css
+red: #990303
+lightgrey: #9c9999
+grey: #71706e
+darkgrey: #292323
+white: #F5F5F5
 */
 
-.panel
+#blank-page
 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
+    background-color: #71706e;
+    box-shadow: 1px 1px #990303;
+    border-radius: 3px;
+    padding: 10px;
 }
 
-#app
-{
-    height: 100%; 
-    width: 100%;
-    overflow-x: hidden;
-    position: relative;
-}
-
-#main-panel
-{
-    box-shadow: red -3px 0 20px;
-    z-index: 100;
-    width: 100%;
-    transition: left 0.5s;
-    background-color: darkgray;
-}
-
-#title-bar
-{
-    width: 100%;
-    height: 80px;
-}
-
-#left-panel
-{
-    z-index: 0;
-    width: 50%;
-    background-color: whitesmoke;
-}
-
-#burger-nav
-{
-    margin-top: 80px;
-    width: 100%;
-}
-
-.burger-nav-item
-{
-    width: 100%;
-    height: 4ex;
-    padding: 20px;
-    line-height: 4ex;
-    border-bottom: grey 1px solid;
-}
-
-/* 
-Banner CSS
-*/
-
-
-#banner
-{
-    height: 300px;
-}
-
-#nav-bar
-{
-    min-height: 6ex;
-    width: 100%;
-}
-
-.nav-bar-item
-{
-    display: inline-block;
-    font-size: 1.5ex;
-    min-width: 15%;
-    text-align: center;
-    line-height: 3.5ex;
-    cursor: pointer;
-    color: darkgray;
-    transition: color 0.3s;
-}
-
-.nav-bar-item:hover
-{
-    color: #00d7ff42;
-}
-
-#footer {
-    border-top: 1px solid darkgrey;
-    height: 200px;
-    padding: 20px;
-    background-color: dimgrey;
-    color: whitesmoke;
-}
-
-/*
- Reactive
-*/
-
+/* Desktop */
 @media only screen and (min-width: 800px)
 {
-    #burger-panel,
-    #burger-button
+    #blank-page
     {
-        display: none;
+        margin: 10px 100px;
     }
 }
 
+/* Mobile */
 @media only screen and (max-width: 800px)
 {
-    #nav-bar
+    #blank-page
     {
-        display: none;
+        margin: 10px 10px;
     }
-
-    #title-bar
-    {
-        margin-left: 80px;
-    }
-}
-
-/* Debug */
-
-#burger-nav
-{
-    background-color: coral;
-}
-
-#title-bar
-{
-    background-color: blue;
-}
-
-#banner
-{
-    background-color: blueviolet;
-}
-
-#nav-bar
-{
-    background-color: whitesmoke;
-}
-
-#content
-{
-    background-color: grey;
-}
-
-#footer
-{
-    background-color: green;
 }
