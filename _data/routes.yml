@@ -1,0 +1,18 @@
+- Name: Home
+  Url: /
+
+- Name: About
+  Url: /about
+
+- Name: CV,
+  Url: /cv
+
+- Name: Blog
+  Url: /blog
+
+- Name: Serverless
+  Url: /serverless
+
+- Name: Projects
+  Url: /projects
+
