@@ -2,7 +2,7 @@
     <head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-        <title>[{{site.version}}] {{ site.title }}</title>
+        <title>[V{{site.version}}] {{ site.title }}</title>
         <link rel="stylesheet" href="css/layout.css" />
         <link rel="stylesheet" href="css/page.css" />
         <link rel="stylesheet" href="css/markdown.css" />
@@ -27,24 +27,27 @@
             <div id="main-panel" class="panel"> 
                 <div id="title-bar">
                     <div id="title-text">
-                        TitleBar
+                        {{ site.title }}
                     </div>
                     <div id="links">
                         <ul>
-
+                            {% for link in site.data.links %}
+                                <a href="{{ link.url }}">
+                                    <img src="{{ link.imgUrl }}" height="30px" width="30px" />
+                                </a>
+                            {% endfor %}
                         </ul>
                     </div>
                 </div>
-                <div id="banner">
-                    <img src="/assets/banner.png" width="100%" height="100%" />
-                </div>
+                {% if page.bannerUrl != null and page.bannerUrl != empty %}
+                    <div id="banner">
+                        <img src="{{ page.bannerUrl }}" width="100%" height="100%" />
+                    </div>
+                {% endif %}
                 <div class="nav-bar">
-                    <a href="/" class="nav-bar-item">Home</a>
-                    <a href="/about" class="nav-bar-item">About</a>
-                    <a href="/cv" class="nav-bar-item">CV</a>
-                    <a href="/blog" class="nav-bar-item">Blog</a>
-                    <a href="/serverless" class="nav-bar-item">Serverless</a>
-                    <a href="/projects" class="nav-bar-item">Projects</a>
+                    {% for route in site.data.routes %}
+                    <a href="{{ route.Url }}" class="nav-bar-item">{{ route.Name }}</a>
+                    {% endfor %}
                 </div>
                 <div id="content">
                     <div id="blank-page">
@@ -52,7 +55,7 @@
                     </div>
                 </div>
                 <div id="footer">
-Velit ex tempor anim veniam commodo nisi eu commodo irure dolor aliquip deserunt. Velit reprehenderit eiusmod ea ad. Laboris dolor fugiat deserunt non occaecat.
+                    {% include footer.md %}
                 </div>
             </div>
         </div>
