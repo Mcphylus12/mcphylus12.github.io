@@ -1,5 +1,6 @@
 ---
 layout: page
+bannerUrl: /assets/banner.png
 ---
 
 # Welcome to GitHub Pages
