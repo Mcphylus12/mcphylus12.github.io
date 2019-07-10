@@ -1,69 +1,124 @@
-<html>
-    <head>
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
-
-        <title>{% if page.title != null and page.title != empty  %}
-            {{ page.title }} 
-            {% else %}
-            {{ site.title }} 
-            {% endif %} [V{{site.version}}]</title>
-        <link rel="stylesheet" href="/css/layout.css" />
-        <link rel="stylesheet" href="/css/page.css" />
-        <link rel="stylesheet" href="/css/markdown.css" />
-    </head>
-    <body>
-        <div id="app">
-            <input type="checkbox" id="burger-check" name="burger-check" autocomplete="off">
-            <label id="burger-button" class="mobile" for="burger-check">
-                <div id="burger-button-container">
-                    <span class="burger-line" id="one"></span>
-                    <span class="burger-line" id="two"></span>
-                    <span class="burger-line" id="three"></span>
-                </div>
-            </label>
-            <div id="left-panel" class="mobile panel">
-                <div class="nav-bar">
-                    {% for route in site.data.routes %}
-                    <a href="{{ route.Url }}" class="nav-bar-item">{{ route.Name }}</a>
-                    {% endfor %}
-                </div>
+<style>
+    body {
+        color: darkslategrey;
+        background-color: whitesmoke;
+        pointer-events: none;
+        font-family: monospace;
+    }
+    
+    #top-container {
+        width: 100%;
+        position: relative;
+    }
+    
+    #top {
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 60%;
+        text-align: center;
+    }
+    
+    #title {
+        font-size: xx-large;
+    }
+    
+    #sub-title {
+        font-size: large;
+        position: relative;
+        left: 100px;
+        color: deepskyblue;
+    }
+    
+    #main {
+        position: relative;
+    }
+    
+    #content {
+        width: 69%;
+        display: inline-block;
+    }
+    
+    #nav, #blogs {
+        vertical-align: top;
+        top: 0;
+        position: sticky;
+        width: 15%;
+        display: inline-block;
+    }
+    
+    .item
+    {
+        pointer-events: all;
+        margin-top: 5px;
+        width: 50%;
+        transition: color 0.3s;
+    }
+    
+    .item a
+    {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .item hr
+    {
+        margin-bottom: 2;
+        margin-top: 2;
+        opacity: 0;
+        transform: translate(30px, 0);
+        transition: transform 0.3s, opacity 0.3s;
+    }
+    
+    .item:hover
+    {
+        color: deepskyblue;
+    }
+    
+    .item:hover hr
+    {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+    </style>
+    <div id="top-container">
+        <div id="top">
+            <div id="title">A Pleb's Ponderings</div>
+            <div id="sub-title">By Kyle Alexander</div>
+            <hr />
+        </div>
+    </div>
+    <div id="main">
+        <div id="nav">
+            <div class="item"><a href="/">Home</a><hr /></div>
+            <div id="menu">
+                <div class="item"><a href="/about">About</a><hr /></div>
+                <div class="item"><a href="/cv">CV</a><hr /></div>
+                <div class="item"><a href="/blog">Blog</a><hr /></div>
+                <div class="item"><a href="/projects">Projects</a><hr /></div>
+                <div class="item"><a href="/serverless">Serverless</a><hr /></div>
             </div>
-            <div id="main-panel" class="panel"> 
-                <div id="title-bar">
-                    <div id="title-text">
-                        {{ site.title }}
-                    </div>
-                    <div id="links">
-                        <ul>
-                            {% for link in site.data.links %}
-                                <a href="{{ link.url }}">
-                                    <img src="{{ link.imgUrl }}" height="30px" width="30px" />
-                                </a>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div>
-                {% if page.bannerUrl != null and page.bannerUrl != empty %}
-                    <div id="banner">
-                        <img src="{{ page.bannerUrl }}" width="100%" height="100%" />
-                    </div>
-                {% else %}
-                    <div id="banner">
-                        <img src="{{ site.bannerUrl }}" width="100%" height="100%" />
-                    </div>
-                {% endif %}
-                <div class="nav-bar desktop">
-                    {% for route in site.data.routes %}
-                    <a href="{{ route.Url }}" class="nav-bar-item">{{ route.Name }}</a>
-                    {% endfor %}
-                </div>
-                <div id="content">
-                    {{ content }}
-                </div>
-                <div id="footer">
-                    {% include footer.html %}
-                </div>
+         </div>
+        <div id="content">
+            {{ content }}
+        </div>
+        <div id="blogs">
+           <div class="card">
+               <div class="card-title">Test Blog 1</div>
+               <div class="card-tags">
+                   <div class="card-tag">Tech</div>
+                   <div class="card-tag">Agile</div>
+                   <div class="card-tag">C#</div>
+               </div>
+           </div>
+           <div class="card">
+               <div class="card-title">Test Blog 2</div>
+               <div class="card-tags">
+                   <div class="card-tag">Tech</div>
+                   <div class="card-tag">Agile</div>
+                   <div class="card-tag">C#</div>
+               </div>
             </div>
         </div>
-    </body>
-</html>
+    </div>
