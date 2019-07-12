@@ -18,4 +18,4 @@ On a more personal note I enjoy Team sports, Cooking, Video games and Chilling o
 
 ## CV
 
-[You can view my CV here](/cv.pdf)
+[You can view my CV here](https://docs.google.com/document/d/1WOGr-EmWnWburm_ngnLansSuIYUDTqEfIN1Dw3bPrqQ/edit?usp=sharing)
