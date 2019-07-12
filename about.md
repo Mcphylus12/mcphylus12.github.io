@@ -15,3 +15,7 @@ As A Programmer I am an advocate of clean object oriented programming using SOLI
 My professional experience in agile consists of using scrum and kanban. We have used both systems to manage large backlogs populated by an external customer.
 
 On a more personal note I enjoy Team sports, Cooking, Video games and Chilling out. I am a english and grew up in Ipswich in suffolk.
+
+## CV
+
+[You can view my CV here](/cv.pdf)
