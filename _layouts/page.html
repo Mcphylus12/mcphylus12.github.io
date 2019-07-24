@@ -14,7 +14,7 @@
             position: fixed;
             background-repeat: no-repeat;
             background-size: cover;
-            background-position: center;
+            background-position: left;
             background-image: url(/assets/BG.PNG);
             bottom: 0;
             top: 0;
@@ -24,8 +24,9 @@
         {
             position: relative;
             top: 40px;
-            left: 40px;
+            right: 140px;
             font-size: 34px;
+            text-align: right;
         }
         
         #title-two
@@ -41,15 +42,19 @@
             transform: translate(-50%, -50%);
         }
         
-        #avatar-container {    
-            border: 2px solid smokewhite;
+        #avatar-container {
             border-radius: 50%;
             overflow: hidden;
+        }
+
+        #avatar-container img{
+            width: 100%;
         }
         
         #name {
             text-align: center;
             margin: 10px;
+            font-size: large;
         }
         
         #links
@@ -61,8 +66,8 @@
         .link
         {
             display: inline-block;
-            width: 20px;
-            height: 20px;
+            width: 30px;
+            height: 30px;
             text-decoration: none;
             list-style: none;
         }
