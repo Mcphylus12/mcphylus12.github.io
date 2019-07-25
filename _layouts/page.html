@@ -1,4 +1,18 @@
+<head>
+    {% if page.css %}
+        <link rel="stylesheet" type="text/css" href="stylesheet/{{ page.css }}.css">
+    {% endif %}
+    {% if page.title %}
+        <title>{{ page.title }}</title>
+    {% endif %}
+</head>
+<body>
 <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+
         body 
         {    
             margin: 0;
@@ -119,3 +133,4 @@
          {{ content }}
         </div>
         </div>
+    </body>

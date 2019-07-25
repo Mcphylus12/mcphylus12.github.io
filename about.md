@@ -1,5 +1,7 @@
 ---
 layout: page
+css: markdown
+title: About Me
 ---
 
 # About Me
