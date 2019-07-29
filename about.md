@@ -4,6 +4,8 @@ css: markdown
 title: About Me
 ---
 
+<a href="/" class="back">Back</a>
+
 # About Me
 
 My name's Kyle and you've managed to stumble across my attempt at having something slightly more that a LinkedIn page. I am a Computer Science graduate from the University of East Anglia after taking my love of problem solving to computers when I was in high school.
