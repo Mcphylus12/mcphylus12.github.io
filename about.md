@@ -4,7 +4,7 @@ css: markdown
 title: About Me
 ---
 
-<div class="item"><a href="/">Back</a><hr /></div>
+<div class="item back"><a href="/">Back</a><hr /></div>
 
 # About Me
 
