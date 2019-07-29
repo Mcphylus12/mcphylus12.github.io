@@ -4,8 +4,7 @@ css: markdown
 title: About Me
 ---
 
-[Back](/)
-{: .back}
+<div class="item"><a href="/">Back</a><hr /></div>
 
 # About Me
 
