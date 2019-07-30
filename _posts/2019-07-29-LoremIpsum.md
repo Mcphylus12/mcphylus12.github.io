@@ -8,7 +8,7 @@ Image: Test.png
 Category: Test
 Tags: [Test1, Test2, Test3]
 
-hidden: true
+visible: true
 excerpt_separator: <!--more-->
 ---
 

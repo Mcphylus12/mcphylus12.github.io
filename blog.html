@@ -10,7 +10,7 @@ title: Blogs
 
 <ul>
   {% for post in site.posts %}
-  {% if !post.hidden %}
+  {% if post.visible %}
       <li>
         <a href="{{ post.url }}">
           <div class="category">{{ post.Category }}</div>
