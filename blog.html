@@ -22,10 +22,12 @@ title: Blogs
               </div>
             {% endfor %}
           </div>
-          {% if post.Image %}
+          <div class="post-container">
+            {% if post.Image %}
             <div class="image"><img src="/assets/{{ post.Image }}"/></div>
-          {% endif %}
-          <div class="summary">{{ post.excerpt }}</div>
+            {% endif %}
+            <div class="summary">{{ post.excerpt }}</div>
+          </div>
           <div class="author">{{ post.Author }}</div>
         </a>
       </li>
