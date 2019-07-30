@@ -6,7 +6,7 @@ Title: Lorem Ipsum
 Image: Test.png
 
 Category: Test
-Tags: Test1 Test2 Test3
+Tags: [Test1, Test2, Test3]
 
 live: true
 ---

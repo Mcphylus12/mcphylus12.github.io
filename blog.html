@@ -8,7 +8,6 @@ title: Blogs
 
 <h1>Blog</h1>
 
-
 <ul>
   {% for post in site.posts %}
       <li>
@@ -16,10 +15,9 @@ title: Blogs
           <div class="category">{{ post.Category }}</div>
           <div class="title">{{ post.Title }}</div>
           <div class="tags">
-            {% assign splitTags = site.Tags | split: " " %}
-            {% for tag in splitTags %}
+            {% for tag in post.Tags %}
               <div class="tag">
-                {{ member }}
+                {{ tag }}
               </div>
             {% endfor %}
           </div>
