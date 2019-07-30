@@ -15,12 +15,6 @@ li
         color: darkslategray;
     }
 
-    .title
-    {
-        display: inline-block;
-        margin-bottom: 10px;
-    }
-
     .tags
     {
         display: inline;
@@ -34,7 +28,12 @@ li
     .image
     {
         float: left;
-        height: 30px;
+        width: 30%;
+
+        img 
+        {
+            width: 100%;
+        }
     }
 
 }

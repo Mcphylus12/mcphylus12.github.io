@@ -13,20 +13,19 @@ title: Blogs
   {% if post.visible %}
       <li>
         <a href="{{ post.url }}">
+          <div class="post-container">
+            {% if post.Image %}
+            <div class="image"><img src="/assets/{{ post.Image }}"/></div>
+            {% endif %}
+            <div class="summary">{{ post.excerpt }}</div>
+          </div>
           <div class="category">{{ post.Category }}</div>
-          <div class="title">{{ post.Title }}</div>
           <div class="tags">
             {% for tag in post.Tags %}
               <div class="tag">
                 {{ tag }}
               </div>
             {% endfor %}
-          </div>
-          <div class="post-container">
-            {% if post.Image %}
-            <div class="image"><img src="/assets/{{ post.Image }}"/></div>
-            {% endif %}
-            <div class="summary">{{ post.excerpt }}</div>
           </div>
           <div class="author">{{ post.Author }}</div>
         </a>
