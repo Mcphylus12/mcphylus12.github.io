@@ -19,7 +19,7 @@ li
 
     .tags
     {
-        display: inline;
+        float: right;
     }
 
     .tag
@@ -50,6 +50,11 @@ li
         {
             margin: 5px;
         }
+    }
+
+    .author
+    {
+        font-size: smaller;
     }
 
 }
