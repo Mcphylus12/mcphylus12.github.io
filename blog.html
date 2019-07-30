@@ -10,9 +10,27 @@ title: Blogs
 
 
 <ul>
-        {% for post in site.posts %}
-          <li>
-            <a href="{{ post.url }}">{{ post.Title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
+  {% for post in site.posts %}
+    {% if site.live %}
+      <li>
+        <a href="{{ post.url }}">
+          <div class="category">{{ post.Category }}</div>
+          <div class="title">{{ post.Title }}</div>
+          <div class="tags">
+            {% assign splitTags = site.Tags | split: " " %}
+            {% for tag in splitTags %}
+              <div class="tag">
+                {{ member }}
+              </div>
+            {% endfor %}
+          </div>
+          {% if post.Image %}
+            <div class="image"><img src="/assets/{{ post.Image }}"/></div>
+          {% endif %}
+          <div class="summary">{{ post.excerpt }}</div>
+          <div class="author">{{ post.Author }}</div>
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
