@@ -11,7 +11,7 @@ live: true
 excerpt_separator: <!--more-->
 ---
 
-# Lorem Ipsum
+# Lorem Ipsum2
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a fringilla ex. Nulla facilisi. Nullam sagittis elit vel libero faucibus, congue condimentum nibh efficitur. Nullam sit amet mi a eros hendrerit venenatis. Cras molestie luctus nunc, in fermentum velit. Nulla mollis justo id efficitur placerat. Sed viverra augue in mattis aliquam. Pellentesque sit amet interdum tellus. Quisque orci nunc, efficitur id mi sit amet, blandit luctus odio. Vivamus magna felis, maximus quis massa et, vehicula auctor metus. Donec leo massa, vestibulum quis tempor tincidunt, feugiat id enim. Phasellus imperdiet justo at erat lobortis imperdiet.
 <!--more-->
