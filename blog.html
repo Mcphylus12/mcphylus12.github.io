@@ -10,6 +10,7 @@ title: Blogs
 
 <ul>
   {% for post in site.posts %}
+  {% if !post.hidden %}
       <li>
         <a href="{{ post.url }}">
           <div class="category">{{ post.Category }}</div>
@@ -28,5 +29,6 @@ title: Blogs
           <div class="author">{{ post.Author }}</div>
         </a>
       </li>
+  {% endif %}
   {% endfor %}
 </ul>
