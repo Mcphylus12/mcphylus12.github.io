@@ -19,6 +19,7 @@ title: Blogs
             {% endif %}
             <div class="summary">{{ post.excerpt }}</div>
           </div>
+          <div class="date">{{ post.date | date_to_string }}</div>
           <hr />
           <div class="category">{{ post.Category }}</div>
           <div class="tags">
