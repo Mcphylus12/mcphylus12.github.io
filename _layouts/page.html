@@ -35,17 +35,19 @@
         </div>
     </div>
     <div id="main">        
-        <div id="menu">
+        <div id="menu" class="section">
             {% for route in site.data.routes %}
                 <div class="route">
                     <a href="{{ route.url }}">{{ route.name }}</a>
                 </div>
             {% endfor %}   
         </div>
-        <div id="content">
+        <div id="content" class="section">
             {{ content }}
         </div>
-        {% include posts.html %}
+        <div class="section">
+            {% include posts.html %}
+        </div>
     </div>
   </body>
 </html>
