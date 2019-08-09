@@ -16,12 +16,7 @@ body
     height: 40vh;
 }
 
-#banner-text
+#banner-content
 {
-    position: relative;
-    left: 50%;
-    top: 10%;
-    height: 50%;
-    width: 50%;
-    transform: translateX(-50%);
+    overflow: hidden;
 }
