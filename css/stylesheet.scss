@@ -36,6 +36,11 @@ body
     border-radius: 50%;
     border: 3px solid whitesmoke;
     overflow: hidden;
+
+    img
+    {
+        width: 100%;
+    }
 }
 
 #banner-text
