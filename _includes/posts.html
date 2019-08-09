@@ -1,0 +1,9 @@
+<div id="posts">
+    {% for post in site.posts %}
+        {% if post.visible %}
+            <div class="post">
+                {{ post.title }}
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>

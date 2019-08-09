@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 
 Author: Kyle Alexander
 Title: Lorem Ipsum2
