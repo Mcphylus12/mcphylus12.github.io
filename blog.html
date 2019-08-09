@@ -3,34 +3,6 @@ layout: page
 title: Blogs
 ---
 
-<div class="item back"><a href="/">Home</a><hr /></div>
-
 <h1>Blog</h1>
 
-<ul>
-  {% for post in site.posts %}
-  {% if post.visible %}
-      <li>
-        <a href="{{ post.url }}">
-          <div class="post-container">
-            {% if post.Image %}
-            <div class="image"><img src="/assets/{{ post.Image }}"/></div>
-            {% endif %}
-            <div class="summary">{{ post.excerpt }}</div>
-          </div>
-          <div class="date">{{ post.date | date_to_string }}</div>
-          <hr style="margin-bottom: 0;"/>
-          <div class="category">{{ post.Category }}</div>
-          <div class="tags">
-            {% for tag in post.Tags %}
-              <div class="tag">
-                {{ tag }}
-              </div>
-            {% endfor %}
-          </div>
-          <div class="author">{{ post.Author }}</div>
-        </a>
-      </li>
-  {% endif %}
-  {% endfor %}
-</ul>
+{% include posts.html %}
