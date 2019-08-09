@@ -15,14 +15,24 @@
 #main
 {
     display: flex;
+    align-items: flex-start;
+}
+
+#posts
+{
+    h2
+    {
+        margin-left: 5px;
+        margin-bottom: 20px;
+    }
 }
 
 #menu, #posts
 {
-    flex: 1 1 23%;
+    flex: 1 1 60%;
 }
 
 #content
 {
-
+    flex: 1 0 50%;
 }
