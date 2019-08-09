@@ -14,19 +14,21 @@
   </head>
   <body>
     <div id="banner">
-        <div id="avatar">
-            <img src="{{ site.avatarUrl }}" />
-        </div>
-        <div id="banner-text">
-            <div id="name">
-                {{ site.name }}
+        <div id="banner-content">
+            <div id="avatar">
+                <img src="{{ site.avatarUrl }}" />
             </div>
-            <div id="links">
-                {% for link in site.data.links %}
-                    <div class="link">
-                        <a href="{{ link.url }}"><img src="{{ link.iconUrl }}" /></a>
-                    </div>
-                {% endfor %}
+            <div id="banner-text">
+                <div id="name">
+                    {{ site.name }}
+                </div>
+                <div id="links">
+                    {% for link in site.data.links %}
+                        <div class="link">
+                            <a href="{{ link.url }}"><img src="{{ link.iconUrl }}" /></a>
+                        </div>
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </div>
