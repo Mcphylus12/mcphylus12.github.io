@@ -1,6 +1,6 @@
 {% for post in site.posts limit: include.postLimit %}
     {% if post.visible %}
-        <div id="post" class="section">
+        <div id="post" class="section {{ post.Category }} {% for tag in post.Tags %}{{ tag }} {% endfor %}">
             <a href="{{ post.url }}">
                 <div class="post-container">
                         {% if post.Image %}
