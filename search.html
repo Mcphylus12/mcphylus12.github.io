@@ -3,11 +3,14 @@ layout: page
 title: Posts
 ---
 
+<h1 id="searchTitle"></h1>
+
 {% include posts.html postLimit=10000000 %}
 
 <script>
     var urlParams = new URLSearchParams(window.location.search);
     var posts = document.getElementsByClassName("post");
+    var title = document.getElementById("searchTitle");
 
     function filter(discriminator)
     {
@@ -24,6 +27,8 @@ title: Posts
 
     if (urlParams.has("s"))
     {
-        filter(urlParams.get("s"));
+        let val = urlParams.get("s")
+        filter(val);
+        title.textContent = "Results for " + escape(val);
     }
 </script>
