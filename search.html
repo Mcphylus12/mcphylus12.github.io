@@ -22,12 +22,8 @@ title: Posts
         }
     }
 
-    if (urlParams.has("cat"))
+    if (urlParams.has("s"))
     {
-        filter(urlParams.get("cat"));
-    }
-    else if (urlParams.has("tag"))
-    {
-        filter(urlParams.get("tag"));
+        filter(urlParams.get("s"));
     }
 </script>

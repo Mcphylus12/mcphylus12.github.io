@@ -10,12 +10,12 @@
                 </div>
                 <div class="date">{{ post.date | date_to_string }}</div>
                 <hr style="margin-bottom: 0;"/>
-                <div class="category">{{ post.Category }}</div>
+                <a href="/search.html?s={{ post.Category }}" class="category">{{ post.Category }}</a>
                 <div class="tags">
                     {% for tag in post.Tags %}
-                        <div class="tag">
+                        <a href="/search.html?s={{ tag }}" class="tag">
                             {{ tag }}
-                        </div>
+                        </a>
                     {% endfor %}
                 </div>
                 <div class="author">{{ post.Author }}</div>
