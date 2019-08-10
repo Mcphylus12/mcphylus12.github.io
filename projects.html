@@ -18,13 +18,13 @@ title: Projects
                 </div>
             </div>
             {% if project.imageUrl %}
-                <div class="thumb">
+                <div class="image">
                     <img src="{{ project.imageUrl }}" />
                 </div>
             {% endif %}
-            <div class="description">
+            <p class="description">
                 {{ project.description }}
-            </div>
+            </p>
             <a href="{{ project.githubUrl }}" class="github">
                 {{ project.githubUrl }}
             </a>
