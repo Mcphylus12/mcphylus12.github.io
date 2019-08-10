@@ -1,5 +1,5 @@
 - title: Blazor ModelManager
-  description: A framework written against blazor to trivialise the acquisition and presentation of business models. The framework involves defining a business object, A manager for acquiring the object and finally any number of blazor views that can be used to present the object.
+  description: A framework written against Blazor to trivialise the acquisition and presentation of business models. The framework involves defining a business object, A manager for acquiring the object and finally any number of Blazor views that can be used to present the object.
   githubUrl: https://github.com/Mcphylus12/Blazor.ModelManager
 - title: The Sandbox
   imageUrl: /assets/BG.PNG
