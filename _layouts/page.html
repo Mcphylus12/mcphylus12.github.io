@@ -15,25 +15,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css">
   </head>
   <body>
-    <div id="banner">
-        <div id="banner-content">
-            <div id="avatar">
-                <img src="{{ site.avatarUrl }}" />
-            </div>
-            <div id="banner-text">
-                <div id="name">
-                    {{ site.name }}
-                </div>
-                <div id="links">
-                    {% for link in site.data.links %}
-                        <div class="link">
-                            <a href="{{ link.url }}"><img src="{{ link.iconUrl }}" /></a>
-                        </div>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-    </div>
+      {% if page.Image %}
+      <div id="titleImage">
+          <img src="{{ page.Image }}" />
+      </div>
+      {% else %}
+      <div id="banner">
+          <div id="banner-content">
+              <div id="avatar">
+                  <img src="{{ site.avatarUrl }}" />
+              </div>
+              <div id="banner-text">
+                  <div id="name">
+                      {{ site.name }}
+                  </div>
+                  <div id="links">
+                      {% for link in site.data.links %}
+                          <div class="link">
+                              <a href="{{ link.url }}"><img src="{{ link.iconUrl }}" /></a>
+                          </div>
+                      {% endfor %}
+                  </div>
+              </div>
+          </div>
+      </div>
+      {% endif %}
     <div id="main">        
         <div id="menu" class="section">
             {% for route in site.data.routes %}
