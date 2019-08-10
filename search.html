@@ -4,3 +4,30 @@ title: Posts
 ---
 
 {% include posts.html postLimit=10000000 %}
+
+<script>
+    var urlParams = new URLSearchParams(window.location.search);
+    var posts = document.getElementsByClassName("post");
+
+    function filter(discriminator)
+    {
+        let dsc = escape(discriminator);
+        var i;
+        
+        for (i = 0; i < posts.length; i++) { 
+            if (!posts[i].classList.contains(dsc))
+            {
+                posts[i].style.display = "none";
+            }
+        }
+    }
+
+    if (urlParams.has("cat"))
+    {
+        filter(urlParams.get("cat"));
+    }
+    else if (urlParams.has("tag"))
+    {
+        filter(urlParams.get("tag"));
+    }
+</script>
