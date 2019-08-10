@@ -1,4 +1,6 @@
-- title: Jekyll Slideshow 
+- title: Jekyll Slideshow
+  imageUrl: /assets/BG.PNG
   description: A site written for github pages with the intention of being a simple launch pad for small businesses that dont want to do anything more than deliver some contact details and examples of previous work. It is a constant work in progress and things will be added at the request of anyone who would want to have it as a template. The idea came as I have some family members running small businesses and want to have an online presence.
   url: /JekyllShowcase/
+  githubUrl: https://github.com/Mcphylus12/JekyllShowcase
             
