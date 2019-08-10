@@ -3,7 +3,7 @@ layout: page
 
 Author: Kyle Alexander
 Title: Lorem Ipsum
-Image: Test.PNG
+Image: /assets/Test.PNG
 
 Category: Test
 Tags: [Test1, Test2, Test3]
