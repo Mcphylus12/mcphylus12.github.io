@@ -21,6 +21,20 @@ body
     color: darkslategrey;
 }
 
+#titleImage
+{
+    position: relative;
+    width: 100%;
+    height: 40vh;
+
+    img
+    {
+        width: 100%;
+        object-fit: scale-down;
+        height: 100%;
+    }
+}
+
 #banner
 {
     position: relative;
