@@ -143,7 +143,10 @@ body
     margin-top: 5px;
 }
 
-.summary
+#posts
 {
-    font-size: x-small;
+    .summary
+    {
+        font-size: x-small;
+    }
 }

@@ -45,7 +45,10 @@
         <div id="content" class="section">
             {{ content }}
         </div>
-        {% include posts.html %}
+        <div id="posts">
+            <h2>{{ site.postsTitle }}</h2>
+            {% include posts.html postLimit=5 %}
+        </div>
     </div>
   </body>
 </html>
