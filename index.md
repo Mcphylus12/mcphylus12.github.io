@@ -18,3 +18,7 @@ In my free time I enjoy video games, team based sports and just generally chilli
 ## CV
 
 [You can view my CV here](https://docs.google.com/document/d/1WOGr-EmWnWburm_ngnLansSuIYUDTqEfIN1Dw3bPrqQ/edit?usp=sharing) or as A link in the banner
+
+## Blogs
+
+All published articles can be found in the blog section but a draft version (if it exists) of the next upcoming one can always be found at [draft](/draft)
