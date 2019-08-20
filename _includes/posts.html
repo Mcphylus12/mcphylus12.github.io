@@ -10,8 +10,9 @@
                 </div>
                 <div class="date">{{ post.date | date_to_string }}</div>
                 <hr style="margin-bottom: 0;"/>
-                <a href="/search.html?s={{ post.Category }}" class="category">{{ post.Category }}</a>
+                <a href="/search.html?s={{ post.Category }}" class="category">Category: {{ post.Category }}</a>
                 <div class="tags">
+                    Tags: 
                     {% for tag in post.Tags %}
                         <a href="/search.html?s={{ tag }}" class="tag">
                             {{ tag }}
