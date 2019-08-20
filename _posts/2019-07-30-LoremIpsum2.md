@@ -7,7 +7,6 @@ Title: Lorem Ipsum2
 Category: Test2
 Tags: [Test11, Test22, Test33]
 
-visible: true
 excerpt_separator: <!--more-->
 ---
 
