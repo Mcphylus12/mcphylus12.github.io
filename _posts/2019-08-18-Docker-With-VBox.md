@@ -8,6 +8,7 @@ Category: Environments
 Tags: [Docker, Jekyll, Windows, Chocolatey, VirtualBox]
 Author: Kyle Alexander
 
+#permalink: /draft/
 visible: true
 excerpt_separator: <!--more-->
 ---
