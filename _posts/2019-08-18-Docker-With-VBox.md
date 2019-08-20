@@ -1,6 +1,6 @@
 ---
 layout: page
-Class: post
+Class: post-content
 
 Author: Kyle Alexander
 Title: Docker on Windows with docker-machine and VirtualBox
