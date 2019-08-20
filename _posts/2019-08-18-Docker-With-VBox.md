@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 Class: post-content
 
 Title: Docker on Windows with docker-machine and VirtualBox
