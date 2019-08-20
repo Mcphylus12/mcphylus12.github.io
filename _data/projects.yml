@@ -1,11 +1,4 @@
 - title: Blazor ModelManager
   description: A framework written against Blazor to trivialise the acquisition and presentation of business models. The framework involves defining a business object, A manager for acquiring the object and finally any number of Blazor views that can be used to present the object.
   githubUrl: https://github.com/Mcphylus12/Blazor.ModelManager
-- title: The Sandbox
-  imageUrl: /assets/BG.PNG
-  description: A kind of one repository to rule them all project where I want to work with every technology visual studio is happy to scaffold regarding web and dotnet. The aim is React, Angular, MVC, Razor and Xamarin applications for the front end and then use micro services in the back attempting to use a wide variety of db technologies and web api architectures such as SOAP and REST
-  githubUrl: https://github.com/Mcphylus12/Sandbox
-- title: EfCore
-  description: A small repository for the purpose of using and learning entity framework and how to optimise LINQ queries for databases
-  githubUrl: https://github.com/Mcphylus12/EFCORE
             
