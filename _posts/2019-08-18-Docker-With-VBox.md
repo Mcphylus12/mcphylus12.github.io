@@ -30,7 +30,7 @@ That would be
 - docker-machine
 - VirtualBox
 
- Just a heads up that some of the future commands make use of pipes so its best to do this in PowerShell.
+> Just a heads up that some of the future commands make use of pipes so its best to do this in PowerShell.
 
 ```PowerShell
 choco install docker-cli
