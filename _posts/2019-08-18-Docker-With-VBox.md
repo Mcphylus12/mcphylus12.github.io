@@ -1,15 +1,10 @@
 ---
-layout: page
-Class: post-content
+layout: post
 
-Author: Kyle Alexander
 Title: Docker on Windows with docker-machine and VirtualBox
 
 Category: Environments
 Tags: [Docker, Jekyll, Windows, Chocolatey, VirtualBox]
-
-visible: true
-excerpt_separator: <!--more-->
 ---
 
 # Docker from scratch on Windows Home
