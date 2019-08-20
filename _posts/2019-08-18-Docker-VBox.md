@@ -28,7 +28,7 @@ That would be
 
  Just a heads up that some of the future commands make use of pipes so its best to do this in PowerShell.
 
-```
+```PowerShell
 choco install docker-cli
 choco install docker-machine
 choco install virtualbox
@@ -48,7 +48,7 @@ Anyway for the purpose of the rest of this I will be using the Jekyll image. For
 
 ### Now we get started
 
-```
+```PowerShell
 docker-machine create -d "virtualbox" default
 ```
 
@@ -58,9 +58,9 @@ This will create a Virtual Machine (a VM) using virtual box with the name defaul
 
 As we have the VM between us and the docker containers we need to make any folders that we will use as docker volumes shared folders between our machine and the VM so everything is synced. After turning off the VM we can use
 
-```
-docker-machine stop (stops the machine)
-vboxmanage sharedfolder add default --name dockermnt --hostpath "\\?\c:\dockermnt" --automount (requires a stopped machine)
+```PowerShell
+docker-machine stop #stops the machine
+vboxmanage sharedfolder add default --name dockermnt --hostpath "\\?\c:\dockermnt" --automount #requires a stopped machine
 docker-machine start
 ```
 
@@ -68,7 +68,7 @@ This will share the folder at the root of both machines called dockermnt (make s
 
 We need to do one more thing as the default user for docker operations does not have access to the dockermnt folder automatically.
 
-```
+```PowerShell
 docker-machine ssh
 sudo su
 chown -R docker /dockermnt
@@ -80,13 +80,13 @@ This gives any operations performed by docker permissions to write into the fold
 
 Before we can use the docker client to mess with containers we need to make sure it is is pointing at the VM as the docker host so any instructions are executed in the VM where the docker daemon is running.
 
-```
+```PowerShell
 docker-machine env
 ```
 
 This will print the a collections of instructions to set the environment for the docker cli. I would advise using PowerShell and running
 
-```
+```PowerShell
 docker-machine env | Invoke-Expression
 ```
 
@@ -94,7 +94,7 @@ This will evaluate the output and set up the variables automatically.
 
 Now we can run
 
-```
+```PowerShell
 docker run --rm -v="/dockermnt/jekyll:/srv/jekyll" -it jekyll/jekyll jekyll new dockertest
 ```
 
@@ -108,7 +108,7 @@ A quick overview of what's in the command first.
 
 Once the command has executed and the container has finished you should now be able to see the whole site in C:\dockermnt\jekyll on your host machine. If the container output looks successful but you cant see the folder then you should run
 
-```
+```PowerShell
 docker ssh
 ```
 
@@ -122,7 +122,7 @@ If none of these issues have happened then you've successfully got docker workin
 
 The other important thing with docker is you'll usually want to run a server from within the container. For this we test with *jekyll serve*.
 
-```
+```PowerShell
 docker run --rm -v="/dockermnt/jekyll/dockertest:/srv/jekyll" -p 80:4000 -it jekyll/jekyll jekyll serve
 ```
 
@@ -133,7 +133,7 @@ Just to note some changes.
 
 The networking is another thing that potentially has an extra step as our container host is a VM. By default the VM has a host only adapter attached which means the VM is automatically accessible from the host machine. You can use 
 
-```
+```PowerShell
 docker-machine ip
 ```
 
