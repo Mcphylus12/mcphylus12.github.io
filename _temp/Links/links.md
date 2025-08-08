@@ -19,3 +19,4 @@
 - https://chaos-mesh.org/
 - https://backstage.io/
 - dotnet foundation, kubeops and MEF2
+- logseq
