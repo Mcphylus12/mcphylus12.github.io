@@ -20,3 +20,4 @@
 - https://backstage.io/
 - dotnet foundation, kubeops and MEF2
 - logseq
+- https://midday.ai/
