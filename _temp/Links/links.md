@@ -20,4 +20,5 @@
 - https://backstage.io/
 - dotnet foundation, kubeops and MEF2
 - logseq
-- https://midday.ai/
+- https://midday.ai/ or alternative freelance management tool
+- https://docs.astral.sh/uv/
