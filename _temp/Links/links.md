@@ -22,3 +22,4 @@
 - logseq
 - https://midday.ai/ or alternative freelance management tool
 - https://docs.astral.sh/uv/
+- nvchad.com
