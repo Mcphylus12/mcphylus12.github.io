@@ -4,6 +4,11 @@ This doc is my attempt at putting some granular ideas to the recruiting and line
 # Interview questions
 What questions I would ask to gauge someone competency and team fit.
 
+General aim is to get a handle on
+- role competency 
+- group fit / casual communication 
+- team fit / serious or work communication 
+
 ## Stage 1
 ### Company
 - What do they know about the Company
