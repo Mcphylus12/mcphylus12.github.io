@@ -25,3 +25,4 @@
 - nvchad.com
 - copy party
 - https://strudel.cc/
+- omarchy
