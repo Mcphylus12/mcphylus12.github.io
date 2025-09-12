@@ -26,3 +26,4 @@
 - copy party
 - https://strudel.cc/
 - omarchy
+- Curriculum from electronic components to modern computing
