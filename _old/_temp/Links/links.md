@@ -29,4 +29,4 @@
 - Curriculum from electronic components to modern computing
 - python UV
 - astro js
-- mise
+- mise/asdf
