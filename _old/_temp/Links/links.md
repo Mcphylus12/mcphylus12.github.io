@@ -27,3 +27,5 @@
 - https://strudel.cc/
 - omarchy
 - Curriculum from electronic components to modern computing
+- python UV
+- astro js
