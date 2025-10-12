@@ -30,3 +30,4 @@
 - python UV
 - astro js
 - mise/asdf
+- https://codeberg.org/uzu/strudel
