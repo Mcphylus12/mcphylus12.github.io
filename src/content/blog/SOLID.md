@@ -1,16 +1,7 @@
 ---
-layout: page
-Class: post-content
-
-Title: Measuring SOLID
-Author: Kyle Alexander
-
-Category: Code Design
-Tags: [SOLID, OOP]
-
-#permalink: /draft/
-visible: true
-excerpt_separator: <!--more-->
+title: 'Opinions on Solid'
+description: 'Thoughts on the solid principles from early in my career'
+heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 
 # SOLID and Measuring Cleanliness 

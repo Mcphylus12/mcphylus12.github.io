@@ -1,3 +1,9 @@
+---
+title: 'Career thoughts'
+description: 'Thoughts on software development progression for individual contributors'
+heroImage: '../../assets/blog-placeholder-3.jpg'
+---
+
 # Overview 
 This doc is my attempt at putting some granular ideas to the recruiting and line management aspect of being a software developer.
 
