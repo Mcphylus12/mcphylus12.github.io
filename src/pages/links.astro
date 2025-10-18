@@ -1,0 +1,108 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<p>This is a random assortment of links ive accrued. Its mainly for personal use to add to and reference back to but i thought id stick it here</p>
+            
+            <h5>Testing</h5>
+            <ul>
+                <li><a href="https://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html">https://blog.cleancoder.com/.../TheCyclesOfTDD.html</a></li>
+                <li><a href="https://learn.microsoft.com/en-us/devops/develop/shift-left-make-testing-fast-reliable">https://learn.microsoft.com/.../shift-left-make-testing-fast-reliable</a></li>
+                <li><a href="https://martinfowler.com/bliki/UnitTest.html">https://martinfowler.com/bliki/UnitTest.html</a></li>
+            </ul>
+            
+            <h5>Team Organisation</h5>
+            <ul>
+                <li><a href="https://staffeng.com/">StaffEng</a></li>
+                <li><a href="https://teamtopologies.com/key-concepts">https://teamtopologies.com/key-concepts</a></li>
+                <li><a href="https://microsoft.github.io/code-with-engineering-playbook/">https://microsoft.github.io/code-with-engineering-playbook/</a></li>
+                <li><a href="https://learn.microsoft.com/en-us/devops/plan/scaling-agile">https://learn.microsoft.com/.../scaling-agile</a></li>
+                <li><a href="https://youtu.be/HYXH2XUfhfo">Leadership on a Submarine</a></li>
+            </ul>
+            
+            <h5>Clean software</h5>
+            <ul>
+                <li><a href="MS-Cloud-Design-Patterns-Infographic.pdf">Azure Architecture Patterns Infographic (Mirrored as its such a pain to find)</a></li>
+                <li><a href="https://download.microsoft.com/download/b/b/6/bb69622c-ab5d-4d5f-9a12-b81b952c1169/clouddesignpatternsbook-pdf.pdf">https://download.microsoft.com/.../clouddesignpatternsbook-pdf.pdf</a></li>
+                <li><a href="https://learn.microsoft.com/en-us/azure/architecture/">https://learn.microsoft.com/en-us/azure/architecture/</a></li>
+                <li><a href="https://enterpriseready.io/">EnterpriseReady</a></li>
+                <li><a href="https://refactoring.guru/">https://refactoring.guru/</a></li>
+                <li><a href="https://microsoft.github.io/code-with-engineering-playbook/observability/log-vs-metric-vs-trace/">https://microsoft.github.io/.../log-vs-metric-vs-trace/</a></li>
+                <li><a href="https://www.youtube.com/c/ContinuousDelivery">https://www.youtube.com/c/ContinuousDelivery</a></li>
+				<li><a href="https://medium.com/@kentbeck_7670">https://medium.com/@kentbeck_7670</a></li>
+				<li><a href="https://martinfowler.com/">https://martinfowler.com/</a></li>
+				<li><a href="https://devblogs.microsoft.com/dotnet/">https://devblogs.microsoft.com/dotnet/</a></li>
+				<li><a href="https://blog.cleancoder.com/">https://blog.cleancoder.com/</a></li>
+            </ul>
+            
+            <h5>Containers</h5>
+            <ul>
+                <li><a href="https://microservices.io/">https://microservices.io/</a></li>
+                <li><a href="https://github.com/grafana/docker-otel-lgtm/">https://github.com/grafana/docker-otel-lgtm/</a></li>
+                <li><a href="https://github.com/grafana/intro-to-mltp">https://github.com/grafana/intro-to-mltp</a></li>
+                <li><a href="https://kubernetes.io/">https://kubernetes.io/</a></li>
+                <li><a href="https://helm.sh/">https://helm.sh/</a></li>
+                <li><a href="https://www.docker.com/resources/what-container/">https://www.docker.com/resources/what-container/</a></li>
+                <li><a href="https://keda.sh/">https://keda.sh/</a></li>
+                
+            </ul>
+            
+            <h5>Dotnet</h5>
+            <ul>
+                <li><a href="https://dotnet.microsoft.com/en-us/learn">https://dotnet.microsoft.com/en-us/learn</a></li>
+				<li><a href="https://dotnet.microsoft.com/en-us/learn/aspnet">https://dotnet.microsoft.com/en-us/learn/aspnet</a></li>
+				<li><a href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor">https://dotnet.microsoft.com/.../blazor</a></li>
+                <li><a href="https://github.com/jbogard/MediatR">https://github.com/jbogard/MediatR</a></li>
+                <li><a href="https://xunit.net/">https://xunit.net/</a></li>
+                <li><a href="https://wolverinefx.net/">https://wolverinefx.net/</a></li>
+                <li><a href="https://github.com/dotnet/eShop">https://github.com/dotnet/eShop</a></li>
+                <li><a href="https://dotnetfoundation.org/">Dotnet Foundation</a></li>
+            </ul>
+            
+            <h5>Tooling</h5>
+            <ul>
+                <li><a href="https://clickhouse.com/">ClickHouse</a></li>
+                <li><a href="https://github.com/backstage/backstage">Backstage (GitHub)</a></li>
+                <li><a href="https://flyte.org/">Flyte</a></li>
+                <li><a href="https://www.cncf.io/projects/">https://www.cncf.io/projects/</a></li>
+                <li><a href="https://landscape.cncf.io/">CNCF Landscape</a></li>
+                <li><a href="https://gchq.github.io/">GCHQ Open Source</a></li>
+                <li><a href="https://devtoys.app/">DevToys</a></li>
+                <li><a href="https://learn.microsoft.com/en-us/windows/powertoys/">Microsoft PowerToys</a></li>
+                <li><a href="https://storybook.js.org/">Storybook.js</a></li>
+                <li><a href="https://www.openstack.org/">OpenStack</a></li>
+                <li><a href="https://chaos-mesh.org/">Chaos Mesh</a></li>
+                <li><a href="https://backstage.io/">Backstage.io</a></li>
+                <li><a href="https://docs.astral.sh/uv/">Python UV (Astral)</a></li>
+                <li><a href="https://astro.build/">Astro.js</a></li>
+                <li><a href="https://mise.jdx.dev/">Mise</a> / ASDF</li>
+            </ul>
+            
+            <h5>Other</h5>
+            <ul>
+                <li><a href="https://youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU&si=bYRy5TliVK4NAnpb">Cuilding a CPU from scratch on a breadboard</a></li>
+                <li><a href="https://weasyprint.org/">WeasyPrint — Python HTML to PDF</a></li>
+                <li><a href="https://www.ventoy.net/">Ventoy</a></li>
+                <li><a href="https://www.odoo.com/">Odoo — All-in-one Business Management</a></li>
+                <li><a href="https://github.com/chrisTitusTech/winutil">Chris Titus Tech — WinUtil</a></li>
+                <li><a href="https://logseq.com/">Logseq</li>
+                <li><a href="https://nvchad.com/">NvChad</a></li>
+                <li><a href="https://strudel.cc/">Strudel.cc</a></li>
+                <li><a href="https://github.com/9001/copyparty">Copy Party</a></li>
+                <li><a href="https://omarchy.org/">Omarchy</a></li>
+            </ul>
+		</main>
+		<Footer />
+	</body>
+</html>
