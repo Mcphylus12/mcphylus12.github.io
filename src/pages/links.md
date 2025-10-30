@@ -32,6 +32,7 @@ This is a random assortment of links I’ve accrued. It’s mainly for personal 
 - [https://martinfowler.com/](https://martinfowler.com/)  
 - [https://devblogs.microsoft.com/dotnet/](https://devblogs.microsoft.com/dotnet/)  
 - [https://blog.cleancoder.com/](https://blog.cleancoder.com/)
+- <https://fundamentalsofsoftwarearchitecture.com/>
 
 ### Containers
 
