@@ -3,3 +3,4 @@
 
 export const SITE_TITLE = '';
 export const SITE_DESCRIPTION = 'Welcome to my website!';
+export const REPO_URL = "https://github.com/Mcphylus12/mcphylus12.github.io";

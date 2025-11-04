@@ -1,10 +1,13 @@
 ---
 const today = new Date();
+import { REPO_URL } from '../consts';
+const { editUrl } = Astro.props;
+const fullUrl = editUrl ? `${REPO_URL}/blob/main/src/${editUrl.split('/src/')[1]}` : REPO_URL;
 ---
 
 <footer>
 	<div class="social-links">
-		<!-- <img src="https://www.scrumalliance.org/badges/sa-csm-600.png" width="128" height="128"/> -->
+		<a href={fullUrl}>Edit this page</a>
 	</div>
 </footer>
 <style>
