@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/Main.astro
 ---
-This is a random assortment of links I’ve accrued. It’s mainly for personal use to add to and reference back to, but I thought I’d stick it here.
+This is a random assortment of links I’ve accrued. It’s mainly for personal use to add to and reference back to, but I thought I’d stick it here on the off chance anyone else finds any of them useful in some way.
 
 ### Testing
 
