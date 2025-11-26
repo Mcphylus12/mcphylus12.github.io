@@ -62,6 +62,7 @@ This is a random assortment of links I’ve accrued. It’s mainly for personal 
 - [ClickHouse](https://clickhouse.com/)  
 - [Backstage (GitHub)](https://github.com/backstage/backstage)  
 - [Flyte](https://flyte.org/)  
+- <https://github.com/temporalio/temporal>
 - [https://www.cncf.io/projects/](https://www.cncf.io/projects/)  
 - [CNCF Landscape](https://landscape.cncf.io/)  
 - [GCHQ Open Source](https://gchq.github.io/)  
