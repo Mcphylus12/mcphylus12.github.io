@@ -16,7 +16,8 @@ This is a random assortment of links I’ve accrued. It’s mainly for personal 
 - [Scrum Expansion Pack](https://scrumexpansion.org/scrum-guide-expansion-pack/)  
 - [StaffEng](https://staffeng.com/)  
 - [https://teamtopologies.com/key-concepts](https://teamtopologies.com/key-concepts)  
-- [https://microsoft.github.io/code-with-engineering-playbook/](https://microsoft.github.io/code-with-engineering-playbook/)  
+- [https://microsoft.github.io/code-with-engineering-playbook/](https://microsoft.github.io/code-with-engineering-playbook/)
+- [Valve Employee Handbook](https://cdn.fastly.steamstatic.com/apps/valve/Valve_NewEmployeeHandbook.pdf)
 - [https://learn.microsoft.com/.../scaling-agile](https://learn.microsoft.com/en-us/devops/plan/scaling-agile)  
 - [Leadership on a Submarine](https://youtu.be/HYXH2XUfhfo)
 
