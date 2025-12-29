@@ -9,6 +9,7 @@ This is a random assortment of links I’ve accrued. It’s mainly for personal 
 - [https://learn.microsoft.com/.../shift-left-make-testing-fast-reliable](https://learn.microsoft.com/en-us/devops/develop/shift-left-make-testing-fast-reliable)  
 - [https://martinfowler.com/bliki/UnitTest.html](https://martinfowler.com/bliki/UnitTest.html)
 - <https://gauge.org/>
+- [Microsoft Fakes](https://learn.microsoft.com/en-us/visualstudio/test/isolating-code-under-test-with-microsoft-fakes)
 
 ### Team Organisation
 
