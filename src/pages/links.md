@@ -77,6 +77,7 @@ This is a random assortment of links I’ve accrued. It’s mainly for personal 
 - [Python UV (Astral)](https://docs.astral.sh/uv/)  
 - [Astro.js](https://astro.build/)  
 - [Mise](https://mise.jdx.dev/) / ASDF
+- <https://scalar.com>
 
 ### Other
 
