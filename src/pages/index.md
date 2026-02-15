@@ -50,3 +50,8 @@ Im slowly working through project ideas.
    - A single JS file that can be dropped in and provides the ability to intercept calls from your app and return mocked responses.
    - Built in UI to manage the mocked responses
    - Supports importing and exporting mocked responses
+- Availability Lobby
+  - https://github.com/Mcphylus12/Availablity-Calendar/
+  - [Live site](https://mcphylus12.github.io/Availablity-Calendar/)
+  - Small site for organising dates for meetups. All the existing ones needed accounts so I made one that is done through sharing urls.
+  - Made with ChatGPT
