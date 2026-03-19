@@ -59,6 +59,15 @@ This is a random assortment of links I’ve accrued. It’s mainly for personal 
 - [https://github.com/dotnet/eShop](https://github.com/dotnet/eShop)  
 - [Dotnet Foundation](https://dotnetfoundation.org/)
 
+### Language Learning
+
+- <https://github.com/rust-lang/rustlings>
+- <https://go.dev/tour>
+- <https://www.learnpython.org/>
+- <https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/>
+- <https://kotlinlang.org/docs/kotlin-tour-welcome.html>
+- <https://www.learn-ts.org/>
+
 ### Tooling
 
 - [ClickHouse](https://clickhouse.com/)  
