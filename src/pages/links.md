@@ -29,8 +29,9 @@ This is a random assortment of links I’ve accrued. It’s mainly for personal 
 - [https://learn.microsoft.com/en-us/azure/architecture/](https://learn.microsoft.com/en-us/azure/architecture/)  
 - [EnterpriseReady](https://enterpriseready.io/)  
 - [https://refactoring.guru/](https://refactoring.guru/)  
-- [https://microsoft.github.io/.../log-vs-metric-vs-trace/](https://microsoft.github.io/code-with-engineering-playbook/observability/log-vs-metric-vs-trace/)  
-- [https://www.youtube.com/c/ContinuousDelivery](https://www.youtube.com/c/ContinuousDelivery)  
+- [https://microsoft.github.io/.../log-vs-metric-vs-trace/](https://microsoft.github.io/code-with-engineering-playbook/observability/log-vs-metric-vs-trace/)
+- <https://fundamentalsofsoftwarearchitecture.com/katas/>
+- [https://www.youtube.com/c/ContinuousDelivery](https://www.youtube.com/c/ContinuousDelivery)
 - [https://medium.com/@kentbeck_7670](https://medium.com/@kentbeck_7670)  
 - [https://martinfowler.com/](https://martinfowler.com/)  
 - [https://devblogs.microsoft.com/dotnet/](https://devblogs.microsoft.com/dotnet/)  
