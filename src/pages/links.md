@@ -88,6 +88,7 @@ This is a random assortment of links I’ve accrued. It’s mainly for personal 
 - [Astro.js](https://astro.build/)  
 - [Mise](https://mise.jdx.dev/) / ASDF
 - <https://scalar.com>
+- <https://moonrepo.dev/>
 
 ### Other
 
