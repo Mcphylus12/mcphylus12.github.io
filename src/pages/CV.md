@@ -16,7 +16,7 @@ and work with others to solve complex problems. I've been an effective technical
 - Technical Leadership & Mentoring
 - Cloud Native Design and Architecture
 - Technical Discovery and Refinement
-- Full-Lifecycle SDLC Ownership
+- Full SDLC Ownership
 - Iterative Solution Design
 - Test-Driven Development (TDD)
 - Continuous Integration/Deployment (CI/CD)
