@@ -1,11 +1,22 @@
-## Title
+---
+layout: ../layouts/Main.astro
+---
+
+# CV
+
 Kyle Alexander
+
 Senior .NET Software Engineer and Technical lead
+
 +44 7597 326 094
+
 mcphylus@live.co.uk
+
 Ipswich, UK
-https://www.linkedin.com/in/kyle-alexander-352b07127/
-https://mcphylus12.github.io/
+
+<https://www.linkedin.com/in/kyle-alexander-352b07127/>
+
+<https://mcphylus12.github.io>
 
 
 ## Professional Statement
