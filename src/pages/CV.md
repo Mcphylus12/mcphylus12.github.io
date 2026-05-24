@@ -2,30 +2,31 @@
 layout: ../layouts/CV.astro
 ---
 
+<header>
+
 # Kyle Alexander
 
-Senior .NET Software Engineer and Technical lead
+<div class="info">
 
-+44 7597 326 094
++44 7597 326 094 | mcphylus@live.co.uk | Ipswich, UK
 
-mcphylus@live.co.uk
+<div class="links">
 
-Ipswich, UK
+[Linkedin](https://www.linkedin.com/in/kyle-alexander-352b07127/) | [Personal site](https://mcphylus12.github.io)
 
-<https://www.linkedin.com/in/kyle-alexander-352b07127/>
+</div>
 
-<https://mcphylus12.github.io>
+</div>
+</header>
 
----
-
-## Professional Statement
+## Senior .NET Software Engineer and Technical lead
 Senior Software Engineer with 9+ years experience specialising in the .NET ecosystem and cloud architecture and development. I work best in highly collaborative environments where I have the opportunity to contribute across the wider SDLC
 and work with others to solve complex problems. I've been an effective technical mentor for teams and individuals while always aiming to stay close to the code and contribute individually.
 
----
-
 ## Skills
-- Technical Leadership & Mentoring
+<div class="skills">
+
+- Technical Leadership and Mentoring
 - Cloud Native Design and Architecture
 - Technical Discovery and Refinement
 - Full SDLC Ownership
@@ -35,7 +36,7 @@ and work with others to solve complex problems. I've been an effective technical
 - User Experience and Design 
 - QA Process and Automation
 
----
+</div>
 
 ## Experience
 ### Glasswall, Remote | Nov 2021 – Feb 2026
@@ -72,12 +73,16 @@ Working in the client department I delivered features for the sportsbook product
 
 ## Technical Skills
 
+<div class="tech-skills">
+
 - **.NET** - C#, ASP.NET, Blazor, Entity Framework
 - **Web** - React, SolidJS, Typescript, Tailwind, CSS
 - **Containers** - Docker, Kubernetes, Helm, RKE2
-- **Cloud** - Azure (AKS, Blob Storage, App Services, App Insights, Cosmos DB), AWS (EKS, Cloudwatch, DocumentDB, S3), Terraform
 - **Data** - SQL (SQL Server/Postgres), MongoDB, RabbitMQ, Azure Service Bus
 - **Tooling** - Visual Studio, VS Code, Claude Code, Git, Github, Azure DevOps
+- **Cloud** - Azure (AKS, Blob Storage, App Services, App Insights, Cosmos DB), AWS (EKS, Cloudwatch, DocumentDB, S3), Terraform
+
+</div>
 
 ## Education and Credentials
 
