@@ -73,7 +73,7 @@ Working in the client department I delivered features for the sportsbook product
 ## Technical Skills
 
 - **.NET** - C#, ASP.NET, Blazor, Entity Framework
-- **Web** - React, Typescript, Tailwind, CSS
+- **Web** - React, SolidJS, Typescript, Tailwind, CSS
 - **Containers** - Docker, Kubernetes, Helm, RKE2
 - **Cloud** - Azure (AKS, Blob Storage, App Services, App Insights, Cosmos DB), AWS (EKS, Cloudwatch, DocumentDB, S3), Terraform
 - **Data** - SQL (SQL Server/Postgres), MongoDB, RabbitMQ, Azure Service Bus
