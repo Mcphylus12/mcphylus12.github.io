@@ -43,31 +43,32 @@ and work with others to solve complex problems. I've been an effective technical
 #### Senior Software Engineer | Nov 2021 – May 2023
 Led the design and development of the Glasswall Halo product(Winner of the Security Innovation of the Year at the 2024 UK IT Industry Award). I delivered features as an IC while also acting as a Technical Lead for cloud related products. 
 
-- Designed and built a higher performance low memory footprint C# service using C interop to run internal DLL functionality at scale
-- Built an internal testing framework extending XUnit allowing QA to define required tests and monitor the result of automated runs within Azure Devops. This improved QA confidence of automation and sped up feedback of any automated test failures
-- Led a fortnightly technical refinement with the engineering team as an open place to suggest solutions to upcoming work and align on decided outcomes 
-- Worked with product owners early in the work creation process to assess technical feasibility and de-risk complex issues
+- Designed and built a higher performance low memory footprint C# service using C interop to run internal DLL functionality at scale.
+- Built an internal testing framework extending XUnit allowing QA to define required tests and monitor the result of automated runs within Azure Devops. This improved QA confidence of automation and sped up feedback of any automated test failures.
+- Led a fortnightly technical refinement with the engineering team as an open place to suggest solutions to upcoming work and align on decided outcomes.
+- Worked with product owners early in the work creation process to assess technical feasibility and de-risk complex issues.
 
 ### Juniper Education, Remote | Aug 2021 – Nov 2021
 #### Senior Software Engineer
 At Juniper I was part of the platform team as the company aimed to acquire and consolidate multiple education tools into a single unified product suite.
 
-- Designed a Core GraphQL API to be used by integrating products as part of moving common data to a single source 
-- Created custom JS scripts to migrate users from multiple separate products to a single Auth0 tenant for login
+- Designed a Core GraphQL API to be used by integrating products as part of moving common data to a single source.
+- Created custom JS scripts to migrate users from multiple separate products to a single Auth0 tenant for login.
 
 ### IJYI, Ipswich, UK | Aug 2019 – Aug 2021
 #### Full Stack Software Engineer
 As an engineer in a small cross functional team I built bespoke software for clients handling the entire SDLC from requirements gathering to production deployment.
 
-- Led the design of a multi tenant white label assessment engine that supported conditional questions using a points system to dynamically update the assessment based on answers to prior questions
-- Created performant real time reporting dashboards for a combination of SCORM courses and bespoke assessments. This involved studying SQL query plans to optimise load times where we did not control the entire schema
+- Led the design of a multi tenant white label assessment engine that supported conditional questions using a points system to dynamically update the assessment based on answers to prior questions.
+- Created performant real time reporting dashboards for a combination of SCORM courses and bespoke assessments. This involved studying SQL query plans to optimise load times where we did not control the entire schema.
 
 ### Derivco, Ipswich & Barcelona | Jun 2017 – Jul 2019
 #### Software Engineer
-Working in the client department I delivered features for the sportsbook product and later relocated to help the company scale into a new country
+Working in the client department I delivered features for the sportsbook product and later relocated to help the company scale into a new country.
 
-- Built a chrome extension during personal development time to allow inspection of state and inter-component messaging for the proprietary SPA framework used by the department
-- Moved to spain for 8 months to seed a new office and team in Barcelona. I participated in technical interviews for candidates and was the primary technical mentor for new joiners into the team 
+- Developed features on a custom C# to Javascript transpiler requiring a working knowledge of compiler architecture and the .NET build process.
+- Built a chrome extension during personal development time to allow inspection of state and inter-component messaging for the proprietary SPA framework used by the department.
+- Moved to spain for 8 months to seed a new office and team in Barcelona. I participated in technical interviews for candidates and was the primary technical mentor for new joiners into the team.
 
 ## Technical Skills
 
