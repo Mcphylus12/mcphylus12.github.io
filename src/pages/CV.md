@@ -43,7 +43,7 @@ and work with others to solve complex problems. I've been an effective technical
 #### Senior Software Engineer | Nov 2021 – May 2023
 Led the design and development of the Glasswall Halo product(Winner of the Security Innovation of the Year at the 2024 UK IT Industry Award). I delivered features as an IC while also acting as a Technical Lead for cloud related products. 
 
-- Designed and built a higher performance low memory footprint C# service using C interop to run internal DLL functionality at scale.
+- Designed and built a high performance low memory footprint C# service using C interop to run internal DLL functionality at scale.
 - Built an internal testing framework extending XUnit allowing QA to define required tests and monitor the result of automated runs within Azure Devops. This improved QA confidence of automation and sped up feedback of any automated test failures.
 - Led a fortnightly technical refinement with the engineering team as an open place to suggest solutions to upcoming work and align on decided outcomes.
 - Worked with product owners early in the work creation process to assess technical feasibility and de-risk complex issues.
