@@ -14,7 +14,7 @@ Its a terrible photo but i couldnt stomach an actual selfie for this.
 Im a full stack dev with most of my experience in C# but enjoy picking up whatever is needed to get the job done. Ive spent parts of my career in tech leadership facilitating democratic software design processes with the aim of getting everyone in the room interested and involved with software design and architecture.
 I have a particular interest in writing and managing clean software systems while focusing on how to keep an application high quality over a long lifetime while being maintained by more than 1 person.
 
-Below is a list of personal ideas and projects I've slowly built. Check out <https://github.com/Mcphylus12/> for more. Links to github and my **CV** are also in the header at the top right of the page
+Below is a list of personal ideas and projects I've slowly built. Check out <https://github.com/Mcphylus12/> for more.
 
 ### Current projects
 Im slowly working through project ideas.
