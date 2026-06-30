@@ -90,6 +90,7 @@ This is a random assortment of links I’ve accrued. It’s mainly for personal 
 - <https://scalar.com>
 - <https://moonrepo.dev/>
 - <https://nats.io/> 
+- <https://www.hangfire.io/>
 
 ### Other
 
