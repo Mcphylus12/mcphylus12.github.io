@@ -21,6 +21,7 @@ This is a random assortment of links I’ve accrued. It’s mainly for personal 
 - [Valve Employee Handbook](https://cdn.fastly.steamstatic.com/apps/valve/Valve_NewEmployeeHandbook.pdf)
 - [https://learn.microsoft.com/.../scaling-agile](https://learn.microsoft.com/en-us/devops/plan/scaling-agile)  
 - [Leadership on a Submarine](https://youtu.be/HYXH2XUfhfo)
+- [What motivates us](https://youtu.be/u6XAPnuFjJc?is=uUyvYnv_mfxR5PgO)
 
 ### Clean Software
 
