@@ -22,6 +22,7 @@ This is a random assortment of links I’ve accrued. It’s mainly for personal 
 - [https://learn.microsoft.com/.../scaling-agile](https://learn.microsoft.com/en-us/devops/plan/scaling-agile)  
 - [Leadership on a Submarine](https://youtu.be/HYXH2XUfhfo)
 - [What motivates us](https://youtu.be/u6XAPnuFjJc?is=uUyvYnv_mfxR5PgO)
+- [Are we celebrating the wrong leaders](https://youtu.be/b0Z9IpTVfUg)
 
 ### Clean Software
 
