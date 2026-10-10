@@ -107,3 +107,4 @@ This is a random assortment of links I’ve accrued. It’s mainly for personal 
 - [Copy Party](https://github.com/9001/copyparty)  
 - [Omarchy](https://omarchy.org/)
 - <https://github.com/bitburner-official/bitburner-src>
+- https://github.com/storytold
