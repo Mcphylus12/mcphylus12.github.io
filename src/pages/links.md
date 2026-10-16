@@ -24,6 +24,9 @@ This is a random assortment of links I’ve accrued. It’s mainly for personal 
 - [What motivates us](https://youtu.be/u6XAPnuFjJc?is=uUyvYnv_mfxR5PgO)
 - [Are we celebrating the wrong leaders](https://youtu.be/b0Z9IpTVfUg)
 - [Atlassian Playbook](https://www.atlassian.com/team-playbook)
+- <https://retromat.org/>
+- <https://www.funretrospectives.com/>
+- <https://agilealliance.org/agile-games/>
 
 ### Clean Software
 
