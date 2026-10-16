@@ -39,6 +39,13 @@ and work with others to solve complex problems. I've been an effective technical
 </div>
 
 ## Experience
+### Bunny.net, Remote | Jun 2026 – Current
+#### Senior Software Engineer
+While working at Bunny as a senior engineer on the Core API team I designed and built an improved access control for machine access to Bunny’s public APIs.
+
+- Implemented support for fine grained access to services using a new api key format that can be locked to specific resources and actions such as reading and writing.
+- Built V2 of the company’s Authentication and Authorisation package to simplify support for existing and new access methods for the Bunny public API.
+
 ### Glasswall, Remote | Nov 2021 – Feb 2026
 #### Technical Lead | May 2023 – Feb 2026
 #### Senior Software Engineer | Nov 2021 – May 2023
