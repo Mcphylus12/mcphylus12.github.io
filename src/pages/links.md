@@ -23,6 +23,7 @@ This is a random assortment of links I’ve accrued. It’s mainly for personal 
 - [Leadership on a Submarine](https://youtu.be/HYXH2XUfhfo)
 - [What motivates us](https://youtu.be/u6XAPnuFjJc?is=uUyvYnv_mfxR5PgO)
 - [Are we celebrating the wrong leaders](https://youtu.be/b0Z9IpTVfUg)
+- [Atlassian Playbook](https://www.atlassian.com/team-playbook)
 
 ### Clean Software
 
